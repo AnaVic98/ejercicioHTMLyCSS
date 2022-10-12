@@ -1,0 +1,37 @@
+/*Estilos para colores */
+.colores {
+    color: blueviolet;
+}
+.color-hexadecimal {
+    color:#82FF9E;
+}
+.color-rgb {
+    color:rgb(150, 128, 33)
+}
+.color-rgba {
+    color:rgba(10, 10, 10, 0,85)
+}
+/* Fondos*/
+.fondo{
+    background-color: aqua;
+    background-image: url("https://media.istockphoto.com/photos/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-picture-id1353553203?b=1&k=20&m=1353553203&s=170667a&w=0&h=QTyTGI9tWQluIlkmwW0s7Q4z7R_IT8egpzzHjW3cSas=");
+background-position: top center;
+}
+/*Tamaños*/
+.ancho {
+    background-color: blueviolet;
+    width: 100px;;
+}
+.alto {
+    background-color: blue;
+height: 100px;
+width: 300px;
+}
+.tarjeta {
+    border-style:groove;  
+    border-color: #82FF9E;
+    border-width: 1px;
+    /*border-top: none*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}

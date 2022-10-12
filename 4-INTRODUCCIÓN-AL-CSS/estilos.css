@@ -1,0 +1,26 @@
+h1 { 
+    color: darkolivegreen; 
+}
+/*Estoy probando colores y fuentes*/
+p {
+    color: rgb(13, 146, 146);
+    font-size: 20pt;
+} 
+#primera-noticia {
+color: blueviolet;
+font-size: 17pt;
+}
+#segunda-noticia {
+    color: rgb(156, 36, 36);
+    font-size: 23pt;
+}
+.encabezado {
+    font-size: 30pt;
+    text-transform:uppercase;
+}
+*.warning {
+    color: rgb(221, 16, 194);
+}
+.autor, .fecha, .lugar, h1,#segunda-noticia {
+    text-decoration: underline; 
+}
