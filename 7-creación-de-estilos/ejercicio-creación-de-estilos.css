@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Noto+Sans+Ethiopic:wght@300&display=swap');
+* {
+    font-family: fuzzy bubbles;
+}
+html {
+    background-color:#161717;
+}
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items: center;
+gap: 25px;
+margin:auto;
+width: 450px;
+}
+.container h3 {
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.buttons {
+    align-self: center;
+    display: flex;
+    gap: 20px;
+}
+.google-btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(3, 100, 245);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+.google-btn picture {
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 100, 245);
+    justify-content: center;
+    width: 35px; ;
+    height: 30px;
+    border-radius: 5px;
+}
+.google-btn picture img {
+    width: 75%;
+}
+.google-btn:hover {
+    opacity: 0.6;
+    
+}
+.twitter-btn {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    border-color: rgb(73, 140, 240);
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;   
+}
+.twitter-btn picture {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    width: 35px; ;
+    height: 30px;
+    border-radius: 5px;
+}
+.twitter-btn picture img {
+width: 75%;
+}
+.twitter-btn:hover {
+    opacity: 0.6;
+}
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    color: white;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 2px solid rgb(73, 140, 240);
+}
+.section-inputs{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.section-inputs label input {
+    width: 80%;
+}
+form {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+label input {
+    width: 90%;
+    background-color:#212121;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label span {
+    font-weight: 700;
+    color: white;
+}
+label input:hover {
+    background-color: #454045;
+    border:solid 1px rgb(73, 140, 240);
+    box-shadow: 0 0 10px rgb(142, 183, 245);
+}
+label input:focus {
+    background-color: white;
+    border:solid 1px cornsilk;
+    box-shadow: 0 0 7px rgb(27, 98, 204);
+}
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+.checkbox-label span {
+    font-weight: 400;
+}
+.submit-btn {
+    background-color: rgb(237, 3, 245);
+    color: white;
+    font-weight: 500;
+    font-size: 12pt;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    opacity: 0.75;
+}
